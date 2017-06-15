@@ -1,0 +1,2073 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/leaflet.markercluster-src.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_2044fc57efc94d3495d086936da4f60a {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-dvf/0.3.0/leaflet-dvf.markers.min.js"></script>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_2044fc57efc94d3495d086936da4f60a" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var southWest = L.latLng(-90, -180);
+                var northEast = L.latLng(90, 180);
+                var bounds = L.latLngBounds(southWest, northEast);
+            
+
+            var map_2044fc57efc94d3495d086936da4f60a = L.map(
+                                  'map_2044fc57efc94d3495d086936da4f60a',
+                                  {center: [41.8415125374,-87.6718728819],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_56929ce3668e47b59d33a4b1c8a4df40 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+                    maxZoom: 18,
+                    minZoom: 1,
+                    continuousWorld: false,
+                    noWrap: false,
+                    attribution: 'Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
+                    detectRetina: false
+                    }
+                ).addTo(map_2044fc57efc94d3495d086936da4f60a);
+
+        
+    
+            var regular_polygon_marker_cf48532381974363afaafaac4118c792 = new L.RegularPolygonMarker(
+                new L.LatLng(41.88,-87.63),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#a6cee3',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 21.0008533006
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_313e8fb30d1545b28103599862d27154 = L.popup({maxWidth: '300'});
+
+            
+                var html_6fa0fb612cfd46e298c9e936e907c67f = $('<div id="html_6fa0fb612cfd46e298c9e936e907c67f" style="width: 100.0%; height: 100.0%;">THEFT: 36331</div>')[0];
+                popup_313e8fb30d1545b28103599862d27154.setContent(html_6fa0fb612cfd46e298c9e936e907c67f);
+            
+
+            regular_polygon_marker_cf48532381974363afaafaac4118c792.bindPopup(popup_313e8fb30d1545b28103599862d27154);
+
+            
+        
+    
+            var regular_polygon_marker_2d09d5399da84ce88b8557da784d3132 = new L.RegularPolygonMarker(
+                new L.LatLng(41.89,-87.63),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#a6cee3',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 19.9102615714
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_586332dfe9d044dead31676ccf29e130 = L.popup({maxWidth: '300'});
+
+            
+                var html_19ea1333d47b40b6944640ac7fac95f8 = $('<div id="html_19ea1333d47b40b6944640ac7fac95f8" style="width: 100.0%; height: 100.0%;">THEFT: 21060</div>')[0];
+                popup_586332dfe9d044dead31676ccf29e130.setContent(html_19ea1333d47b40b6944640ac7fac95f8);
+            
+
+            regular_polygon_marker_2d09d5399da84ce88b8557da784d3132.bindPopup(popup_586332dfe9d044dead31676ccf29e130);
+
+            
+        
+    
+            var regular_polygon_marker_60881d44770a4e4ea7d0c30af18af9f0 = new L.RegularPolygonMarker(
+                new L.LatLng(41.9,-87.63),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#a6cee3',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 19.3164523919
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_91da4ae80bc844d9ac56cac1bd0a251d = L.popup({maxWidth: '300'});
+
+            
+                var html_1e07b1301cac460a8efc2b8210f161ad = $('<div id="html_1e07b1301cac460a8efc2b8210f161ad" style="width: 100.0%; height: 100.0%;">THEFT: 15650</div>')[0];
+                popup_91da4ae80bc844d9ac56cac1bd0a251d.setContent(html_1e07b1301cac460a8efc2b8210f161ad);
+            
+
+            regular_polygon_marker_60881d44770a4e4ea7d0c30af18af9f0.bindPopup(popup_91da4ae80bc844d9ac56cac1bd0a251d);
+
+            
+        
+    
+            var regular_polygon_marker_7b36450055004cf58f09f9a597a239bf = new L.RegularPolygonMarker(
+                new L.LatLng(41.8805,-87.75959),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#1f78b4',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 18.1663771726
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_0177ae27eac44bfcb5eb2a92f30dbda8 = L.popup({maxWidth: '300'});
+
+            
+                var html_6c1e6395eefd416589a78be9c8c18fdd = $('<div id="html_6c1e6395eefd416589a78be9c8c18fdd" style="width: 100.0%; height: 100.0%;">BATTERY: 8806</div>')[0];
+                popup_0177ae27eac44bfcb5eb2a92f30dbda8.setContent(html_6c1e6395eefd416589a78be9c8c18fdd);
+            
+
+            regular_polygon_marker_7b36450055004cf58f09f9a597a239bf.bindPopup(popup_0177ae27eac44bfcb5eb2a92f30dbda8);
+
+            
+        
+    
+            var regular_polygon_marker_07c82fb2be14416cacd643f4f0129a18 = new L.RegularPolygonMarker(
+                new L.LatLng(41.7505,-87.59959),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#1f78b4',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 18.0719739697
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_6ec15ad431564b948b880b2a86546f3b = L.popup({maxWidth: '300'});
+
+            
+                var html_67d91899887e4dfe95c5029e5ed5d2b0 = $('<div id="html_67d91899887e4dfe95c5029e5ed5d2b0" style="width: 100.0%; height: 100.0%;">BATTERY: 8400</div>')[0];
+                popup_6ec15ad431564b948b880b2a86546f3b.setContent(html_67d91899887e4dfe95c5029e5ed5d2b0);
+            
+
+            regular_polygon_marker_07c82fb2be14416cacd643f4f0129a18.bindPopup(popup_6ec15ad431564b948b880b2a86546f3b);
+
+            
+        
+    
+            var regular_polygon_marker_2ce23c8010d94997b8f9db31a9862563 = new L.RegularPolygonMarker(
+                new L.LatLng(41.8805,-87.74959),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#1f78b4',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 18.0492260441
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_2464cc25dbe04408901b76cc908abca0 = L.popup({maxWidth: '300'});
+
+            
+                var html_fa47f56e850e420ea5d8e261ed380739 = $('<div id="html_fa47f56e850e420ea5d8e261ed380739" style="width: 100.0%; height: 100.0%;">BATTERY: 8305</div>')[0];
+                popup_2464cc25dbe04408901b76cc908abca0.setContent(html_fa47f56e850e420ea5d8e261ed380739);
+            
+
+            regular_polygon_marker_2ce23c8010d94997b8f9db31a9862563.bindPopup(popup_2464cc25dbe04408901b76cc908abca0);
+
+            
+        
+    
+            var regular_polygon_marker_c07e632604974804b3938b52d320a02a = new L.RegularPolygonMarker(
+                new L.LatLng(41.781,-87.60918),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#b2df8a',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 16.3640002726
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_fa343b6f73bb413f8a9f8d00accc71ad = L.popup({maxWidth: '300'});
+
+            
+                var html_f2d2cb4eca3f48539361dc87b527df02 = $('<div id="html_f2d2cb4eca3f48539361dc87b527df02" style="width: 100.0%; height: 100.0%;">CRIMINAL DAMAGE: 3576</div>')[0];
+                popup_fa343b6f73bb413f8a9f8d00accc71ad.setContent(html_f2d2cb4eca3f48539361dc87b527df02);
+            
+
+            regular_polygon_marker_c07e632604974804b3938b52d320a02a.bindPopup(popup_fa343b6f73bb413f8a9f8d00accc71ad);
+
+            
+        
+    
+            var regular_polygon_marker_dd55161b98dd49ac936f6c5e30df326a = new L.RegularPolygonMarker(
+                new L.LatLng(41.881,-87.74918),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#b2df8a',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 16.2939973948
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_60e602c02d8541578e2de8c9e1d3cfb7 = L.popup({maxWidth: '300'});
+
+            
+                var html_8a31a3cc956b4aef850f820d75d66c09 = $('<div id="html_8a31a3cc956b4aef850f820d75d66c09" style="width: 100.0%; height: 100.0%;">CRIMINAL DAMAGE: 3453</div>')[0];
+                popup_60e602c02d8541578e2de8c9e1d3cfb7.setContent(html_8a31a3cc956b4aef850f820d75d66c09);
+            
+
+            regular_polygon_marker_dd55161b98dd49ac936f6c5e30df326a.bindPopup(popup_60e602c02d8541578e2de8c9e1d3cfb7);
+
+            
+        
+    
+            var regular_polygon_marker_f8089bbb35794577bf5aacf112bc121d = new L.RegularPolygonMarker(
+                new L.LatLng(41.751,-87.59918),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#b2df8a',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 16.237605994
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_94f8ea67ec3749f2aef92bcd2509252c = L.popup({maxWidth: '300'});
+
+            
+                var html_d7bc9392ba424148b04f95ba7a940337 = $('<div id="html_d7bc9392ba424148b04f95ba7a940337" style="width: 100.0%; height: 100.0%;">CRIMINAL DAMAGE: 3357</div>')[0];
+                popup_94f8ea67ec3749f2aef92bcd2509252c.setContent(html_d7bc9392ba424148b04f95ba7a940337);
+            
+
+            regular_polygon_marker_f8089bbb35794577bf5aacf112bc121d.bindPopup(popup_94f8ea67ec3749f2aef92bcd2509252c);
+
+            
+        
+    
+            var regular_polygon_marker_e423281395374ec7b5fff9c4d4abd5b9 = new L.RegularPolygonMarker(
+                new L.LatLng(41.8815,-87.74877),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#33a02c',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 19.0562786867
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_eae3496ac0794efa8ee101191b951430 = L.popup({maxWidth: '300'});
+
+            
+                var html_27f396935cfe4e34bdaa2f3167adaf31 = $('<div id="html_27f396935cfe4e34bdaa2f3167adaf31" style="width: 100.0%; height: 100.0%;">NARCOTICS: 13741</div>')[0];
+                popup_eae3496ac0794efa8ee101191b951430.setContent(html_27f396935cfe4e34bdaa2f3167adaf31);
+            
+
+            regular_polygon_marker_e423281395374ec7b5fff9c4d4abd5b9.bindPopup(popup_eae3496ac0794efa8ee101191b951430);
+
+            
+        
+    
+            var regular_polygon_marker_dbaeb18c178d48b18bc1b6db3b2d9eae = new L.RegularPolygonMarker(
+                new L.LatLng(41.8815,-87.72877),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#33a02c',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 19.0247380763
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_e2c0fd54f10b4d1ea0cd5fb783614de5 = L.popup({maxWidth: '300'});
+
+            
+                var html_114ec8ef84d04a178563aab96e57d445 = $('<div id="html_114ec8ef84d04a178563aab96e57d445" style="width: 100.0%; height: 100.0%;">NARCOTICS: 13526</div>')[0];
+                popup_e2c0fd54f10b4d1ea0cd5fb783614de5.setContent(html_114ec8ef84d04a178563aab96e57d445);
+            
+
+            regular_polygon_marker_dbaeb18c178d48b18bc1b6db3b2d9eae.bindPopup(popup_e2c0fd54f10b4d1ea0cd5fb783614de5);
+
+            
+        
+    
+            var regular_polygon_marker_52f3cfe84bc54beb97bdc6b8ad59982a = new L.RegularPolygonMarker(
+                new L.LatLng(41.9015,-87.71877),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#33a02c',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 18.9750349196
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_80b2a866cc7246ee89ae75f07e6108f7 = L.popup({maxWidth: '300'});
+
+            
+                var html_7fa2a3d15dbc4ef09ac7fdf0efc0a745 = $('<div id="html_7fa2a3d15dbc4ef09ac7fdf0efc0a745" style="width: 100.0%; height: 100.0%;">NARCOTICS: 13194</div>')[0];
+                popup_80b2a866cc7246ee89ae75f07e6108f7.setContent(html_7fa2a3d15dbc4ef09ac7fdf0efc0a745);
+            
+
+            regular_polygon_marker_52f3cfe84bc54beb97bdc6b8ad59982a.bindPopup(popup_80b2a866cc7246ee89ae75f07e6108f7);
+
+            
+        
+    
+            var regular_polygon_marker_acd1a781bb5e475ab6e3d5389f99dc11 = new L.RegularPolygonMarker(
+                new L.LatLng(41.982,-87.90836),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#fb9a99',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 16.3193214741
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_21d174a338fe47e59e61a005a60025a3 = L.popup({maxWidth: '300'});
+
+            
+                var html_13acb62f20454de0ad3435427b5e5489 = $('<div id="html_13acb62f20454de0ad3435427b5e5489" style="width: 100.0%; height: 100.0%;">OTHER OFFENSE: 3497</div>')[0];
+                popup_21d174a338fe47e59e61a005a60025a3.setContent(html_13acb62f20454de0ad3435427b5e5489);
+            
+
+            regular_polygon_marker_acd1a781bb5e475ab6e3d5389f99dc11.bindPopup(popup_21d174a338fe47e59e61a005a60025a3);
+
+            
+        
+    
+            var regular_polygon_marker_3580d6cba3d04637a5083332f16bdb56 = new L.RegularPolygonMarker(
+                new L.LatLng(41.882,-87.62836),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#fb9a99',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 15.8226480379
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_eec9a727dcfb4399a1abe011266e27fc = L.popup({maxWidth: '300'});
+
+            
+                var html_d6c45429ccd54c1599ab862e80333042 = $('<div id="html_d6c45429ccd54c1599ab862e80333042" style="width: 100.0%; height: 100.0%;">OTHER OFFENSE: 2728</div>')[0];
+                popup_eec9a727dcfb4399a1abe011266e27fc.setContent(html_d6c45429ccd54c1599ab862e80333042);
+            
+
+            regular_polygon_marker_3580d6cba3d04637a5083332f16bdb56.bindPopup(popup_eec9a727dcfb4399a1abe011266e27fc);
+
+            
+        
+    
+            var regular_polygon_marker_53dffdfbf57c4d899d99c7bd5f9c4c1b = new L.RegularPolygonMarker(
+                new L.LatLng(41.882,-87.74836),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#fb9a99',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 15.5871736067
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_32439166d56548068983b786031a6ed1 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b5c7132429046718fcad0bb68fd73c6 = $('<div id="html_8b5c7132429046718fcad0bb68fd73c6" style="width: 100.0%; height: 100.0%;">OTHER OFFENSE: 2425</div>')[0];
+                popup_32439166d56548068983b786031a6ed1.setContent(html_8b5c7132429046718fcad0bb68fd73c6);
+            
+
+            regular_polygon_marker_53dffdfbf57c4d899d99c7bd5f9c4c1b.bindPopup(popup_32439166d56548068983b786031a6ed1);
+
+            
+        
+    
+            var regular_polygon_marker_7566b30a066f4185a33c32e112715341 = new L.RegularPolygonMarker(
+                new L.LatLng(41.8825,-87.62795),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#e31a1c',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 15.999357159
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_ab90a34448164d85aab7afd569dd7045 = L.popup({maxWidth: '300'});
+
+            
+                var html_71c1d6ec55d84d01b52cdc6eb063b0ed = $('<div id="html_71c1d6ec55d84d01b52cdc6eb063b0ed" style="width: 100.0%; height: 100.0%;">ASSAULT: 2980</div>')[0];
+                popup_ab90a34448164d85aab7afd569dd7045.setContent(html_71c1d6ec55d84d01b52cdc6eb063b0ed);
+            
+
+            regular_polygon_marker_7566b30a066f4185a33c32e112715341.bindPopup(popup_ab90a34448164d85aab7afd569dd7045);
+
+            
+        
+    
+            var regular_polygon_marker_7f50d8d271904d9b998f9cf1e7d2057a = new L.RegularPolygonMarker(
+                new L.LatLng(41.7525,-87.59795),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#e31a1c',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 15.6908320732
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_88b6d3ea88734a00bd2fe4c2ebe4bb00 = L.popup({maxWidth: '300'});
+
+            
+                var html_2d6e576ee24642029b38fd2fbed33080 = $('<div id="html_2d6e576ee24642029b38fd2fbed33080" style="width: 100.0%; height: 100.0%;">ASSAULT: 2554</div>')[0];
+                popup_88b6d3ea88734a00bd2fe4c2ebe4bb00.setContent(html_2d6e576ee24642029b38fd2fbed33080);
+            
+
+            regular_polygon_marker_7f50d8d271904d9b998f9cf1e7d2057a.bindPopup(popup_88b6d3ea88734a00bd2fe4c2ebe4bb00);
+
+            
+        
+    
+            var regular_polygon_marker_cc83a834f1e0451cb21dd0c62d250025 = new L.RegularPolygonMarker(
+                new L.LatLng(41.7825,-87.60795),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#e31a1c',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 15.6892652889
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_d2784a5e6d464c668b26d325e1e790e7 = L.popup({maxWidth: '300'});
+
+            
+                var html_fdcb33c61d1945f3b249f18961d44efb = $('<div id="html_fdcb33c61d1945f3b249f18961d44efb" style="width: 100.0%; height: 100.0%;">ASSAULT: 2552</div>')[0];
+                popup_d2784a5e6d464c668b26d325e1e790e7.setContent(html_fdcb33c61d1945f3b249f18961d44efb);
+            
+
+            regular_polygon_marker_cc83a834f1e0451cb21dd0c62d250025.bindPopup(popup_d2784a5e6d464c668b26d325e1e790e7);
+
+            
+        
+    
+            var regular_polygon_marker_f7dd1e673e9e42689a08c2b9bffc5486 = new L.RegularPolygonMarker(
+                new L.LatLng(41.753,-87.59754),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#fdbf6f',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 15.4813288038
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_44c223eb498742d2832591af9a03c024 = L.popup({maxWidth: '300'});
+
+            
+                var html_9f764f9882454b289f1e21814016e6ee = $('<div id="html_9f764f9882454b289f1e21814016e6ee" style="width: 100.0%; height: 100.0%;">BURGLARY: 2300</div>')[0];
+                popup_44c223eb498742d2832591af9a03c024.setContent(html_9f764f9882454b289f1e21814016e6ee);
+            
+
+            regular_polygon_marker_f7dd1e673e9e42689a08c2b9bffc5486.bindPopup(popup_44c223eb498742d2832591af9a03c024);
+
+            
+        
+    
+            var regular_polygon_marker_a886bfe987aa45bd9f4c28bba8c1c7a9 = new L.RegularPolygonMarker(
+                new L.LatLng(41.773,-87.57754),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#fdbf6f',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 15.4293549476
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_f1b4fa7ced5b4c18bb1aaeedc5c5246c = L.popup({maxWidth: '300'});
+
+            
+                var html_81aae7150ea24752aaf7ed9fb7a15760 = $('<div id="html_81aae7150ea24752aaf7ed9fb7a15760" style="width: 100.0%; height: 100.0%;">BURGLARY: 2241</div>')[0];
+                popup_f1b4fa7ced5b4c18bb1aaeedc5c5246c.setContent(html_81aae7150ea24752aaf7ed9fb7a15760);
+            
+
+            regular_polygon_marker_a886bfe987aa45bd9f4c28bba8c1c7a9.bindPopup(popup_f1b4fa7ced5b4c18bb1aaeedc5c5246c);
+
+            
+        
+    
+            var regular_polygon_marker_c325fd925b7a4ddcb0ce29a768fb67fd = new L.RegularPolygonMarker(
+                new L.LatLng(41.753,-87.55754),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#fdbf6f',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 15.3249356304
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_18e868d825694e2b8e01a54131ebf757 = L.popup({maxWidth: '300'});
+
+            
+                var html_4f47fd84cf374a849b6cae48da0e47d0 = $('<div id="html_4f47fd84cf374a849b6cae48da0e47d0" style="width: 100.0%; height: 100.0%;">BURGLARY: 2127</div>')[0];
+                popup_18e868d825694e2b8e01a54131ebf757.setContent(html_4f47fd84cf374a849b6cae48da0e47d0);
+            
+
+            regular_polygon_marker_c325fd925b7a4ddcb0ce29a768fb67fd.bindPopup(popup_18e868d825694e2b8e01a54131ebf757);
+
+            
+        
+    
+            var regular_polygon_marker_3d513f1470eb4cafb18f22a994a5a951 = new L.RegularPolygonMarker(
+                new L.LatLng(41.8835,-87.74713),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#ff7f00',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 14.4172006759
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_78255c04e60145e3a00fbe4a4236fecf = L.popup({maxWidth: '300'});
+
+            
+                var html_60ecd9ad388343ce82923586c348cc95 = $('<div id="html_60ecd9ad388343ce82923586c348cc95" style="width: 100.0%; height: 100.0%;">MOTOR VEHICLE THEFT: 1351</div>')[0];
+                popup_78255c04e60145e3a00fbe4a4236fecf.setContent(html_60ecd9ad388343ce82923586c348cc95);
+            
+
+            regular_polygon_marker_3d513f1470eb4cafb18f22a994a5a951.bindPopup(popup_78255c04e60145e3a00fbe4a4236fecf);
+
+            
+        
+    
+            var regular_polygon_marker_3109664d9d1c4f74bdafd1b20b81c904 = new L.RegularPolygonMarker(
+                new L.LatLng(41.7535,-87.60713),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#ff7f00',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 14.2793206719
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_fabd5669861e43bb9a51e346732546a8 = L.popup({maxWidth: '300'});
+
+            
+                var html_986b99fc5274457f8afe057507052281 = $('<div id="html_986b99fc5274457f8afe057507052281" style="width: 100.0%; height: 100.0%;">MOTOR VEHICLE THEFT: 1261</div>')[0];
+                popup_fabd5669861e43bb9a51e346732546a8.setContent(html_986b99fc5274457f8afe057507052281);
+            
+
+            regular_polygon_marker_3109664d9d1c4f74bdafd1b20b81c904.bindPopup(popup_fabd5669861e43bb9a51e346732546a8);
+
+            
+        
+    
+            var regular_polygon_marker_49ad96ffcc0c42fb8862baa18eb9a056 = new L.RegularPolygonMarker(
+                new L.LatLng(41.9035,-87.72713),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#ff7f00',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 14.2473455704
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_a8a06c6677504361950d787b3a29954c = L.popup({maxWidth: '300'});
+
+            
+                var html_fa924536bdfa4b6e83f7370fb3e6177f = $('<div id="html_fa924536bdfa4b6e83f7370fb3e6177f" style="width: 100.0%; height: 100.0%;">MOTOR VEHICLE THEFT: 1241</div>')[0];
+                popup_a8a06c6677504361950d787b3a29954c.setContent(html_fa924536bdfa4b6e83f7370fb3e6177f);
+            
+
+            regular_polygon_marker_49ad96ffcc0c42fb8862baa18eb9a056.bindPopup(popup_a8a06c6677504361950d787b3a29954c);
+
+            
+        
+    
+            var regular_polygon_marker_d4ebeb494f6e4da8bd58411fc6d42797 = new L.RegularPolygonMarker(
+                new L.LatLng(41.754,-87.60672),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#cab2d6',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 14.8614141651
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_1cdab40fc09a43cbbd70fe65157ce984 = L.popup({maxWidth: '300'});
+
+            
+                var html_a71eb14f948c4ef7af41f63db56713c4 = $('<div id="html_a71eb14f948c4ef7af41f63db56713c4" style="width: 100.0%; height: 100.0%;">ROBBERY: 1687</div>')[0];
+                popup_1cdab40fc09a43cbbd70fe65157ce984.setContent(html_a71eb14f948c4ef7af41f63db56713c4);
+            
+
+            regular_polygon_marker_d4ebeb494f6e4da8bd58411fc6d42797.bindPopup(popup_1cdab40fc09a43cbbd70fe65157ce984);
+
+            
+        
+    
+            var regular_polygon_marker_2adbc6629f21411f98ae7c10975a306c = new L.RegularPolygonMarker(
+                new L.LatLng(41.884,-87.74672),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#cab2d6',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 14.8146354209
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_e481ac3223dd42e0a501e59876f0b9be = L.popup({maxWidth: '300'});
+
+            
+                var html_c113989f8fd24fc98fdf95053e028ddc = $('<div id="html_c113989f8fd24fc98fdf95053e028ddc" style="width: 100.0%; height: 100.0%;">ROBBERY: 1648</div>')[0];
+                popup_e481ac3223dd42e0a501e59876f0b9be.setContent(html_c113989f8fd24fc98fdf95053e028ddc);
+            
+
+            regular_polygon_marker_2adbc6629f21411f98ae7c10975a306c.bindPopup(popup_e481ac3223dd42e0a501e59876f0b9be);
+
+            
+        
+    
+            var regular_polygon_marker_33eeafd6f8d941acbbfc87ce7be10988 = new L.RegularPolygonMarker(
+                new L.LatLng(41.884,-87.72672),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#cab2d6',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 14.795123071
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_34644bffe06a41728bc6acdbe0137b15 = L.popup({maxWidth: '300'});
+
+            
+                var html_fdf00b72f3a947df8f618becf0ad42da = $('<div id="html_fdf00b72f3a947df8f618becf0ad42da" style="width: 100.0%; height: 100.0%;">ROBBERY: 1632</div>')[0];
+                popup_34644bffe06a41728bc6acdbe0137b15.setContent(html_fdf00b72f3a947df8f618becf0ad42da);
+            
+
+            regular_polygon_marker_33eeafd6f8d941acbbfc87ce7be10988.bindPopup(popup_34644bffe06a41728bc6acdbe0137b15);
+
+            
+        
+    
+            var regular_polygon_marker_bafa722a87fc476db58c856e0a1d178d = new L.RegularPolygonMarker(
+                new L.LatLng(41.8845,-87.62631),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#6a3d9a',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 17.6739103147
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_b749ce86d8f343409c0f76b31e53d58b = L.popup({maxWidth: '300'});
+
+            
+                var html_39f765d5d64c43778cdb4c6d9fb8e622 = $('<div id="html_39f765d5d64c43778cdb4c6d9fb8e622" style="width: 100.0%; height: 100.0%;">DECEPTIVE PRACTICE: 6884</div>')[0];
+                popup_b749ce86d8f343409c0f76b31e53d58b.setContent(html_39f765d5d64c43778cdb4c6d9fb8e622);
+            
+
+            regular_polygon_marker_bafa722a87fc476db58c856e0a1d178d.bindPopup(popup_b749ce86d8f343409c0f76b31e53d58b);
+
+            
+        
+    
+            var regular_polygon_marker_8b9b29fb8fd74b85b1f80964cb168ffe = new L.RegularPolygonMarker(
+                new L.LatLng(41.8945,-87.62631),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#6a3d9a',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 17.312866517
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_bd1c9900a35a4e6e81b8e16941184a88 = L.popup({maxWidth: '300'});
+
+            
+                var html_fc72c65f1a8141fcb8f390e6d4e6d984 = $('<div id="html_fc72c65f1a8141fcb8f390e6d4e6d984" style="width: 100.0%; height: 100.0%;">DECEPTIVE PRACTICE: 5747</div>')[0];
+                popup_bd1c9900a35a4e6e81b8e16941184a88.setContent(html_fc72c65f1a8141fcb8f390e6d4e6d984);
+            
+
+            regular_polygon_marker_8b9b29fb8fd74b85b1f80964cb168ffe.bindPopup(popup_bd1c9900a35a4e6e81b8e16941184a88);
+
+            
+        
+    
+            var regular_polygon_marker_f8ca33d32b9443c4a8bcf39b490d1424 = new L.RegularPolygonMarker(
+                new L.LatLng(41.9045,-87.62631),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#6a3d9a',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 17.2326285646
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_f7d69ec995ef4f5d9907eb2be7882e76 = L.popup({maxWidth: '300'});
+
+            
+                var html_87d46928227b429e831519e0a287a0a1 = $('<div id="html_87d46928227b429e831519e0a287a0a1" style="width: 100.0%; height: 100.0%;">DECEPTIVE PRACTICE: 5521</div>')[0];
+                popup_f7d69ec995ef4f5d9907eb2be7882e76.setContent(html_87d46928227b429e831519e0a287a0a1);
+            
+
+            regular_polygon_marker_f8ca33d32b9443c4a8bcf39b490d1424.bindPopup(popup_f7d69ec995ef4f5d9907eb2be7882e76);
+
+            
+        
+    
+            var regular_polygon_marker_315af10da70a41af83f53ff51b3fb4fc = new L.RegularPolygonMarker(
+                new L.LatLng(41.855,-87.6259),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#ffff99',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 17.0739916374
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_fdf8db9ebfda4324b4bd0c628a82ac90 = L.popup({maxWidth: '300'});
+
+            
+                var html_d48d7c99f4e44c62bb3fc874a79e5de1 = $('<div id="html_d48d7c99f4e44c62bb3fc874a79e5de1" style="width: 100.0%; height: 100.0%;">CRIMINAL TRESPASS: 5100</div>')[0];
+                popup_fdf8db9ebfda4324b4bd0c628a82ac90.setContent(html_d48d7c99f4e44c62bb3fc874a79e5de1);
+            
+
+            regular_polygon_marker_315af10da70a41af83f53ff51b3fb4fc.bindPopup(popup_fdf8db9ebfda4324b4bd0c628a82ac90);
+
+            
+        
+    
+            var regular_polygon_marker_39b5d51cab02418e86ab65af64ea86ac = new L.RegularPolygonMarker(
+                new L.LatLng(41.905,-87.6359),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#ffff99',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 16.8435660132
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_62b18c22fab74e8d81e02e3c10e85236 = L.popup({maxWidth: '300'});
+
+            
+                var html_804f2cd1692842ebae2a830a3b200199 = $('<div id="html_804f2cd1692842ebae2a830a3b200199" style="width: 100.0%; height: 100.0%;">CRIMINAL TRESPASS: 4545</div>')[0];
+                popup_62b18c22fab74e8d81e02e3c10e85236.setContent(html_804f2cd1692842ebae2a830a3b200199);
+            
+
+            regular_polygon_marker_39b5d51cab02418e86ab65af64ea86ac.bindPopup(popup_62b18c22fab74e8d81e02e3c10e85236);
+
+            
+        
+    
+            var regular_polygon_marker_748b25ca75c84c93999809542abac9ab = new L.RegularPolygonMarker(
+                new L.LatLng(41.885,-87.6259),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#ffff99',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 16.3347039741
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_fdcb8cfae98549d981c810589ae2a2df = L.popup({maxWidth: '300'});
+
+            
+                var html_f74e3981db454f2ca8bf8eeeb9566078 = $('<div id="html_f74e3981db454f2ca8bf8eeeb9566078" style="width: 100.0%; height: 100.0%;">CRIMINAL TRESPASS: 3524</div>')[0];
+                popup_fdcb8cfae98549d981c810589ae2a2df.setContent(html_f74e3981db454f2ca8bf8eeeb9566078);
+            
+
+            regular_polygon_marker_748b25ca75c84c93999809542abac9ab.bindPopup(popup_fdcb8cfae98549d981c810589ae2a2df);
+
+            
+        
+    
+            var regular_polygon_marker_f05fc1ba9f0547608d92188bb2a70178 = new L.RegularPolygonMarker(
+                new L.LatLng(41.7755,-87.66549),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#b15928',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 12.5682683221
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_363293b3a7874940b29982687d87d785 = L.popup({maxWidth: '300'});
+
+            
+                var html_9dc039762fb94e4287e87c67ecddb334 = $('<div id="html_9dc039762fb94e4287e87c67ecddb334" style="width: 100.0%; height: 100.0%;">WEAPONS VIOLATION: 536</div>')[0];
+                popup_363293b3a7874940b29982687d87d785.setContent(html_9dc039762fb94e4287e87c67ecddb334);
+            
+
+            regular_polygon_marker_f05fc1ba9f0547608d92188bb2a70178.bindPopup(popup_363293b3a7874940b29982687d87d785);
+
+            
+        
+    
+            var regular_polygon_marker_e749f3aac1264ca5bf12f85c3ec6ea1e = new L.RegularPolygonMarker(
+                new L.LatLng(41.8855,-87.74549),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#b15928',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 12.4491168586
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_39d17e81e65a40f0a1ef96f273f5f452 = L.popup({maxWidth: '300'});
+
+            
+                var html_bedae9af671b43139a2730f5a082de08 = $('<div id="html_bedae9af671b43139a2730f5a082de08" style="width: 100.0%; height: 100.0%;">WEAPONS VIOLATION: 505</div>')[0];
+                popup_39d17e81e65a40f0a1ef96f273f5f452.setContent(html_bedae9af671b43139a2730f5a082de08);
+            
+
+            regular_polygon_marker_e749f3aac1264ca5bf12f85c3ec6ea1e.bindPopup(popup_39d17e81e65a40f0a1ef96f273f5f452);
+
+            
+        
+    
+            var regular_polygon_marker_0c222ca62c174aa1975d958483d6dcfe = new L.RegularPolygonMarker(
+                new L.LatLng(41.8855,-87.75549),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#b15928',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 12.4332122022
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_5a6adc37e3ab42c2bfaa87ed55f55e15 = L.popup({maxWidth: '300'});
+
+            
+                var html_8582e11b0e18493da0bcee787ffe10ec = $('<div id="html_8582e11b0e18493da0bcee787ffe10ec" style="width: 100.0%; height: 100.0%;">WEAPONS VIOLATION: 501</div>')[0];
+                popup_5a6adc37e3ab42c2bfaa87ed55f55e15.setContent(html_8582e11b0e18493da0bcee787ffe10ec);
+            
+
+            regular_polygon_marker_0c222ca62c174aa1975d958483d6dcfe.bindPopup(popup_5a6adc37e3ab42c2bfaa87ed55f55e15);
+
+            
+        
+    
+            var regular_polygon_marker_2946d0cde6cf42b4a49b7ca8367f758f = new L.RegularPolygonMarker(
+                new L.LatLng(41.856,-87.70508),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#8dd3c7',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 12.5532869787
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_68155628954848c098a4679f80ad4a43 = L.popup({maxWidth: '300'});
+
+            
+                var html_d565ef445c714227a33e80971f0c16a4 = $('<div id="html_d565ef445c714227a33e80971f0c16a4" style="width: 100.0%; height: 100.0%;">PUBLIC PEACE VIOLATION: 532</div>')[0];
+                popup_68155628954848c098a4679f80ad4a43.setContent(html_d565ef445c714227a33e80971f0c16a4);
+            
+
+            regular_polygon_marker_2946d0cde6cf42b4a49b7ca8367f758f.bindPopup(popup_68155628954848c098a4679f80ad4a43);
+
+            
+        
+    
+            var regular_polygon_marker_ce6023d9eee4428f9444ca8caa532be2 = new L.RegularPolygonMarker(
+                new L.LatLng(41.856,-87.69508),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#8dd3c7',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 12.2797691045
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_5fdd821c7f394206af30ec9d90e9d09c = L.popup({maxWidth: '300'});
+
+            
+                var html_e986b356912d4336a87fcd57be924c24 = $('<div id="html_e986b356912d4336a87fcd57be924c24" style="width: 100.0%; height: 100.0%;">PUBLIC PEACE VIOLATION: 464</div>')[0];
+                popup_5fdd821c7f394206af30ec9d90e9d09c.setContent(html_e986b356912d4336a87fcd57be924c24);
+            
+
+            regular_polygon_marker_ce6023d9eee4428f9444ca8caa532be2.bindPopup(popup_5fdd821c7f394206af30ec9d90e9d09c);
+
+            
+        
+    
+            var regular_polygon_marker_f0279fbe8b7741188b0765fa03577462 = new L.RegularPolygonMarker(
+                new L.LatLng(41.886,-87.62508),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#8dd3c7',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 12.266796086
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_497e0d51b2664768a020f8fccc7be6f7 = L.popup({maxWidth: '300'});
+
+            
+                var html_e792aba9b3ba4b88b0899f4c4637500e = $('<div id="html_e792aba9b3ba4b88b0899f4c4637500e" style="width: 100.0%; height: 100.0%;">PUBLIC PEACE VIOLATION: 461</div>')[0];
+                popup_497e0d51b2664768a020f8fccc7be6f7.setContent(html_e792aba9b3ba4b88b0899f4c4637500e);
+            
+
+            regular_polygon_marker_f0279fbe8b7741188b0765fa03577462.bindPopup(popup_497e0d51b2664768a020f8fccc7be6f7);
+
+            
+        
+    
+            var regular_polygon_marker_bcf66467a1ae4196aab1a42a3e0d2cba = new L.RegularPolygonMarker(
+                new L.LatLng(41.7565,-87.59467),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#ffffb3',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 11.3189644315
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_af844e7a9508406fa22bc9c271e9f3d4 = L.popup({maxWidth: '300'});
+
+            
+                var html_a3a06e794155485ca4d1ee03d7601585 = $('<div id="html_a3a06e794155485ca4d1ee03d7601585" style="width: 100.0%; height: 100.0%;">OFFENSE INVOLVING CHILDREN: 287</div>')[0];
+                popup_af844e7a9508406fa22bc9c271e9f3d4.setContent(html_a3a06e794155485ca4d1ee03d7601585);
+            
+
+            regular_polygon_marker_bcf66467a1ae4196aab1a42a3e0d2cba.bindPopup(popup_af844e7a9508406fa22bc9c271e9f3d4);
+
+            
+        
+    
+            var regular_polygon_marker_de0702b146d14706b8f122e32eae40fd = new L.RegularPolygonMarker(
+                new L.LatLng(41.7665,-87.55467),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#ffffb3',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 11.181973961
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_c6243275aa9248988cb8c7adf3363c31 = L.popup({maxWidth: '300'});
+
+            
+                var html_d2442e46a39f41b9824db1ea1f7503aa = $('<div id="html_d2442e46a39f41b9824db1ea1f7503aa" style="width: 100.0%; height: 100.0%;">OFFENSE INVOLVING CHILDREN: 268</div>')[0];
+                popup_c6243275aa9248988cb8c7adf3363c31.setContent(html_d2442e46a39f41b9824db1ea1f7503aa);
+            
+
+            regular_polygon_marker_de0702b146d14706b8f122e32eae40fd.bindPopup(popup_c6243275aa9248988cb8c7adf3363c31);
+
+            
+        
+    
+            var regular_polygon_marker_d4c230db357946e6b5754661c3b676db = new L.RegularPolygonMarker(
+                new L.LatLng(41.7565,-87.55467),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#ffffb3',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 11.0825270903
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_f2deae4652964e8c8639c021423d7dc9 = L.popup({maxWidth: '300'});
+
+            
+                var html_5ec85c85046e4e11a8dea5086cf6fc7a = $('<div id="html_5ec85c85046e4e11a8dea5086cf6fc7a" style="width: 100.0%; height: 100.0%;">OFFENSE INVOLVING CHILDREN: 255</div>')[0];
+                popup_f2deae4652964e8c8639c021423d7dc9.setContent(html_5ec85c85046e4e11a8dea5086cf6fc7a);
+            
+
+            regular_polygon_marker_d4c230db357946e6b5754661c3b676db.bindPopup(popup_f2deae4652964e8c8639c021423d7dc9);
+
+            
+        
+    
+            var regular_polygon_marker_442b73ae8cb64df9af3b14a669737930 = new L.RegularPolygonMarker(
+                new L.LatLng(41.887,-87.74426),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#bebada',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 10.3969940625
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_7c2d3c5a8af8412f977008994560fc8e = L.popup({maxWidth: '300'});
+
+            
+                var html_5e30069ab54a4bb8a08b0b9dea4c21db = $('<div id="html_5e30069ab54a4bb8a08b0b9dea4c21db" style="width: 100.0%; height: 100.0%;">CRIM SEXUAL ASSAULT: 181</div>')[0];
+                popup_7c2d3c5a8af8412f977008994560fc8e.setContent(html_5e30069ab54a4bb8a08b0b9dea4c21db);
+            
+
+            regular_polygon_marker_442b73ae8cb64df9af3b14a669737930.bindPopup(popup_7c2d3c5a8af8412f977008994560fc8e);
+
+            
+        
+    
+            var regular_polygon_marker_52b2789643b2496cb4488ff59aaa3b3a = new L.RegularPolygonMarker(
+                new L.LatLng(41.757,-87.59426),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#bebada',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 10.1378084044
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_364734955cca4f2d9d6eaae287110bba = L.popup({maxWidth: '300'});
+
+            
+                var html_7ef82c37330343a9b3e4139ff51dc9fc = $('<div id="html_7ef82c37330343a9b3e4139ff51dc9fc" style="width: 100.0%; height: 100.0%;">CRIM SEXUAL ASSAULT: 159</div>')[0];
+                popup_364734955cca4f2d9d6eaae287110bba.setContent(html_7ef82c37330343a9b3e4139ff51dc9fc);
+            
+
+            regular_polygon_marker_52b2789643b2496cb4488ff59aaa3b3a.bindPopup(popup_364734955cca4f2d9d6eaae287110bba);
+
+            
+        
+    
+            var regular_polygon_marker_5442beffdde24866afd79dbf06a5749e = new L.RegularPolygonMarker(
+                new L.LatLng(41.767,-87.55426),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#bebada',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 10.0739052048
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_a93487af719c48c4ab24c6b91a7163d6 = L.popup({maxWidth: '300'});
+
+            
+                var html_5554c3c88c5a4ff7a3dd23cc6dabdfc1 = $('<div id="html_5554c3c88c5a4ff7a3dd23cc6dabdfc1" style="width: 100.0%; height: 100.0%;">CRIM SEXUAL ASSAULT: 154</div>')[0];
+                popup_a93487af719c48c4ab24c6b91a7163d6.setContent(html_5554c3c88c5a4ff7a3dd23cc6dabdfc1);
+            
+
+            regular_polygon_marker_5442beffdde24866afd79dbf06a5749e.bindPopup(popup_a93487af719c48c4ab24c6b91a7163d6);
+
+            
+        
+    
+            var regular_polygon_marker_5fd5784d3e914b958b829384e17ed5a6 = new L.RegularPolygonMarker(
+                new L.LatLng(41.8875,-87.62385),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#fb8072',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 11.0825270903
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_c6e77173faa64a3abac2801f4708ffd8 = L.popup({maxWidth: '300'});
+
+            
+                var html_c9bbef989ad1438a876e2eafd3781350 = $('<div id="html_c9bbef989ad1438a876e2eafd3781350" style="width: 100.0%; height: 100.0%;">SEX OFFENSE: 255</div>')[0];
+                popup_c6e77173faa64a3abac2801f4708ffd8.setContent(html_c9bbef989ad1438a876e2eafd3781350);
+            
+
+            regular_polygon_marker_5fd5784d3e914b958b829384e17ed5a6.bindPopup(popup_c6e77173faa64a3abac2801f4708ffd8);
+
+            
+        
+    
+            var regular_polygon_marker_f4c5a58a9461407db1473e507ad03afd = new L.RegularPolygonMarker(
+                new L.LatLng(41.9475,-87.64385),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#fb8072',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 10.0212705882
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_65f96002899f4eee9bd6e899d7304f96 = L.popup({maxWidth: '300'});
+
+            
+                var html_e5d90852c4d941e4a67762ba85ff2f2d = $('<div id="html_e5d90852c4d941e4a67762ba85ff2f2d" style="width: 100.0%; height: 100.0%;">SEX OFFENSE: 150</div>')[0];
+                popup_65f96002899f4eee9bd6e899d7304f96.setContent(html_e5d90852c4d941e4a67762ba85ff2f2d);
+            
+
+            regular_polygon_marker_f4c5a58a9461407db1473e507ad03afd.bindPopup(popup_65f96002899f4eee9bd6e899d7304f96);
+
+            
+        
+    
+            var regular_polygon_marker_0d61984627934e3daec6a7d5a0333b75 = new L.RegularPolygonMarker(
+                new L.LatLng(41.9775,-87.65385),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#fb8072',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 9.83996185166
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_e16420e3036d4baeb20b15c8ebd3295b = L.popup({maxWidth: '300'});
+
+            
+                var html_1917e97ee27e4627b6f10654878d87cd = $('<div id="html_1917e97ee27e4627b6f10654878d87cd" style="width: 100.0%; height: 100.0%;">SEX OFFENSE: 137</div>')[0];
+                popup_e16420e3036d4baeb20b15c8ebd3295b.setContent(html_1917e97ee27e4627b6f10654878d87cd);
+            
+
+            regular_polygon_marker_0d61984627934e3daec6a7d5a0333b75.bindPopup(popup_e16420e3036d4baeb20b15c8ebd3295b);
+
+            
+        
+    
+            var regular_polygon_marker_810a015362f642dc8343b6e11f6d4fee = new L.RegularPolygonMarker(
+                new L.LatLng(41.888,-87.72344),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#80b1d3',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 10.5664074575
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_730892570bdc404882412af13c152550 = L.popup({maxWidth: '300'});
+
+            
+                var html_966f6c9dd9c448f9a48462d15fbd9e44 = $('<div id="html_966f6c9dd9c448f9a48462d15fbd9e44" style="width: 100.0%; height: 100.0%;">INTERFERENCE WITH PUBLIC OFFICER: 197</div>')[0];
+                popup_730892570bdc404882412af13c152550.setContent(html_966f6c9dd9c448f9a48462d15fbd9e44);
+            
+
+            regular_polygon_marker_810a015362f642dc8343b6e11f6d4fee.bindPopup(popup_730892570bdc404882412af13c152550);
+
+            
+        
+    
+            var regular_polygon_marker_1d1bf32205ee4a95be6cd08bb84cb6e3 = new L.RegularPolygonMarker(
+                new L.LatLng(41.888,-87.74344),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#80b1d3',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 10.2479279588
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_d487b476879d4c9892f07766eaf23c27 = L.popup({maxWidth: '300'});
+
+            
+                var html_470ef116f3694c369f1316d896f31f3e = $('<div id="html_470ef116f3694c369f1316d896f31f3e" style="width: 100.0%; height: 100.0%;">INTERFERENCE WITH PUBLIC OFFICER: 168</div>')[0];
+                popup_d487b476879d4c9892f07766eaf23c27.setContent(html_470ef116f3694c369f1316d896f31f3e);
+            
+
+            regular_polygon_marker_1d1bf32205ee4a95be6cd08bb84cb6e3.bindPopup(popup_d487b476879d4c9892f07766eaf23c27);
+
+            
+        
+    
+            var regular_polygon_marker_2a0c128e2a1248c78552a01299060fc7 = new L.RegularPolygonMarker(
+                new L.LatLng(41.878,-87.69344),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#80b1d3',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 9.96721324342
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_213ead199d5f4f08bfb2319f9c5ee9ff = L.popup({maxWidth: '300'});
+
+            
+                var html_e0124141cd6443418ba27db2fe4c7cd9 = $('<div id="html_e0124141cd6443418ba27db2fe4c7cd9" style="width: 100.0%; height: 100.0%;">INTERFERENCE WITH PUBLIC OFFICER: 146</div>')[0];
+                popup_213ead199d5f4f08bfb2319f9c5ee9ff.setContent(html_e0124141cd6443418ba27db2fe4c7cd9);
+            
+
+            regular_polygon_marker_2a0c128e2a1248c78552a01299060fc7.bindPopup(popup_213ead199d5f4f08bfb2319f9c5ee9ff);
+
+            
+        
+    
+            var regular_polygon_marker_8fbee82be86d4389a5b40e981b5dd0da = new L.RegularPolygonMarker(
+                new L.LatLng(41.8985,-87.62303),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#fdb462',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 10.5149907441
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_852a144a573d4d76920563040b118435 = L.popup({maxWidth: '300'});
+
+            
+                var html_3e46f5ea23a148e4a23e6e3170b81a39 = $('<div id="html_3e46f5ea23a148e4a23e6e3170b81a39" style="width: 100.0%; height: 100.0%;">LIQUOR LAW VIOLATION: 192</div>')[0];
+                popup_852a144a573d4d76920563040b118435.setContent(html_3e46f5ea23a148e4a23e6e3170b81a39);
+            
+
+            regular_polygon_marker_8fbee82be86d4389a5b40e981b5dd0da.bindPopup(popup_852a144a573d4d76920563040b118435);
+
+            
+        
+    
+            var regular_polygon_marker_61dcf5c1af0b49e7b82da8b4457f4a95 = new L.RegularPolygonMarker(
+                new L.LatLng(41.8585,-87.70303),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#fdb462',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 10.4407116502
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_fe523d84ccfe4dec833f6732b209bee3 = L.popup({maxWidth: '300'});
+
+            
+                var html_870d2fc844d54159b613da38595c4217 = $('<div id="html_870d2fc844d54159b613da38595c4217" style="width: 100.0%; height: 100.0%;">LIQUOR LAW VIOLATION: 185</div>')[0];
+                popup_fe523d84ccfe4dec833f6732b209bee3.setContent(html_870d2fc844d54159b613da38595c4217);
+            
+
+            regular_polygon_marker_61dcf5c1af0b49e7b82da8b4457f4a95.bindPopup(popup_fe523d84ccfe4dec833f6732b209bee3);
+
+            
+        
+    
+            var regular_polygon_marker_873c14e42a61419a9ca25a45d92c143b = new L.RegularPolygonMarker(
+                new L.LatLng(41.8585,-87.69303),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#fdb462',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 10.0212705882
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_677a74d705a7491cb9ce3ac278063c76 = L.popup({maxWidth: '300'});
+
+            
+                var html_33a50e9f400c4fdf9fbd29068803a2c2 = $('<div id="html_33a50e9f400c4fdf9fbd29068803a2c2" style="width: 100.0%; height: 100.0%;">LIQUOR LAW VIOLATION: 150</div>')[0];
+                popup_677a74d705a7491cb9ce3ac278063c76.setContent(html_33a50e9f400c4fdf9fbd29068803a2c2);
+            
+
+            regular_polygon_marker_873c14e42a61419a9ca25a45d92c143b.bindPopup(popup_677a74d705a7491cb9ce3ac278063c76);
+
+            
+        
+    
+            var regular_polygon_marker_89249c4fd65d48cb8050036e96086a7d = new L.RegularPolygonMarker(
+                new L.LatLng(41.919,-87.72262),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#b3de69',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 8.4969904841
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_810bb7d5a4f7451ab78381abdafcaa04 = L.popup({maxWidth: '300'});
+
+            
+                var html_465a398d422842a087f5b6631d5b9658 = $('<div id="html_465a398d422842a087f5b6631d5b9658" style="width: 100.0%; height: 100.0%;">ARSON: 70</div>')[0];
+                popup_810bb7d5a4f7451ab78381abdafcaa04.setContent(html_465a398d422842a087f5b6631d5b9658);
+            
+
+            regular_polygon_marker_89249c4fd65d48cb8050036e96086a7d.bindPopup(popup_810bb7d5a4f7451ab78381abdafcaa04);
+
+            
+        
+    
+            var regular_polygon_marker_4a41fa22cf2648e2b9adeb48a9205cb8 = new L.RegularPolygonMarker(
+                new L.LatLng(41.789,-87.66262),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#b3de69',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 8.31776616672
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_3e4914baaa804850bba9a3fed43ccded = L.popup({maxWidth: '300'});
+
+            
+                var html_1ae0574c35c64d28ba3cb04a1883e8f3 = $('<div id="html_1ae0574c35c64d28ba3cb04a1883e8f3" style="width: 100.0%; height: 100.0%;">ARSON: 64</div>')[0];
+                popup_3e4914baaa804850bba9a3fed43ccded.setContent(html_1ae0574c35c64d28ba3cb04a1883e8f3);
+            
+
+            regular_polygon_marker_4a41fa22cf2648e2b9adeb48a9205cb8.bindPopup(popup_3e4914baaa804850bba9a3fed43ccded);
+
+            
+        
+    
+            var regular_polygon_marker_ec54733304884adda46cd7c22299811c = new L.RegularPolygonMarker(
+                new L.LatLng(41.899,-87.75262),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#b3de69',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 8.28626945278
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_d6ff2ad9fd374399b5c448ea6f7e8672 = L.popup({maxWidth: '300'});
+
+            
+                var html_4b8fdf1d38df423aa932c04031dc8b5f = $('<div id="html_4b8fdf1d38df423aa932c04031dc8b5f" style="width: 100.0%; height: 100.0%;">ARSON: 63</div>')[0];
+                popup_d6ff2ad9fd374399b5c448ea6f7e8672.setContent(html_4b8fdf1d38df423aa932c04031dc8b5f);
+            
+
+            regular_polygon_marker_ec54733304884adda46cd7c22299811c.bindPopup(popup_d6ff2ad9fd374399b5c448ea6f7e8672);
+
+            
+        
+    
+            var regular_polygon_marker_5723971b6cac4111a2dff2d8478a81f8 = new L.RegularPolygonMarker(
+                new L.LatLng(41.8895,-87.72221),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#fccde5',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 8.97727273946
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_172965d29ae342cf8b4a9b1b96b64b7d = L.popup({maxWidth: '300'});
+
+            
+                var html_de0ab017c6b0407190adcb0d8a68d248 = $('<div id="html_de0ab017c6b0407190adcb0d8a68d248" style="width: 100.0%; height: 100.0%;">HOMICIDE: 89</div>')[0];
+                popup_172965d29ae342cf8b4a9b1b96b64b7d.setContent(html_de0ab017c6b0407190adcb0d8a68d248);
+            
+
+            regular_polygon_marker_5723971b6cac4111a2dff2d8478a81f8.bindPopup(popup_172965d29ae342cf8b4a9b1b96b64b7d);
+
+            
+        
+    
+            var regular_polygon_marker_a0894d1b56704d9f98047f309e2e28f2 = new L.RegularPolygonMarker(
+                new L.LatLng(41.9095,-87.71221),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#fccde5',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 8.81343849453
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_ced1ab2a0105457384972a3b04fb63c6 = L.popup({maxWidth: '300'});
+
+            
+                var html_76fcc559499b4d369ebda1dbbf5fd32d = $('<div id="html_76fcc559499b4d369ebda1dbbf5fd32d" style="width: 100.0%; height: 100.0%;">HOMICIDE: 82</div>')[0];
+                popup_ced1ab2a0105457384972a3b04fb63c6.setContent(html_76fcc559499b4d369ebda1dbbf5fd32d);
+            
+
+            regular_polygon_marker_a0894d1b56704d9f98047f309e2e28f2.bindPopup(popup_ced1ab2a0105457384972a3b04fb63c6);
+
+            
+        
+    
+            var regular_polygon_marker_3520a15692da40bc9eff94746f46093f = new L.RegularPolygonMarker(
+                new L.LatLng(41.7595,-87.59221),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#fccde5',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 8.66146668057
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_581742f78371405ebd35e6c757ce39b2 = L.popup({maxWidth: '300'});
+
+            
+                var html_ad7420724b0340c4b8adc9da5944675d = $('<div id="html_ad7420724b0340c4b8adc9da5944675d" style="width: 100.0%; height: 100.0%;">HOMICIDE: 76</div>')[0];
+                popup_581742f78371405ebd35e6c757ce39b2.setContent(html_ad7420724b0340c4b8adc9da5944675d);
+            
+
+            regular_polygon_marker_3520a15692da40bc9eff94746f46093f.bindPopup(popup_581742f78371405ebd35e6c757ce39b2);
+
+            
+        
+    
+            var regular_polygon_marker_1bddbc5df1634f9c8cc3c3528217d9f0 = new L.RegularPolygonMarker(
+                new L.LatLng(41.93,-87.7118),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#d9d9d9',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 7.11069612298
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_4de3c1a5b3d44f26ba2a955e886e7e74 = L.popup({maxWidth: '300'});
+
+            
+                var html_1dad5d573af248f48c854000168a9d91 = $('<div id="html_1dad5d573af248f48c854000168a9d91" style="width: 100.0%; height: 100.0%;">KIDNAPPING: 35</div>')[0];
+                popup_4de3c1a5b3d44f26ba2a955e886e7e74.setContent(html_1dad5d573af248f48c854000168a9d91);
+            
+
+            regular_polygon_marker_1bddbc5df1634f9c8cc3c3528217d9f0.bindPopup(popup_4de3c1a5b3d44f26ba2a955e886e7e74);
+
+            
+        
+    
+            var regular_polygon_marker_a4486ea496bc4025aef6186691654b35 = new L.RegularPolygonMarker(
+                new L.LatLng(41.76,-87.6018),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#d9d9d9',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 6.99301512293
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_3b4030af46854454bc1193cb5ebd8673 = L.popup({maxWidth: '300'});
+
+            
+                var html_a572fe6df3b14910871bb1914d101262 = $('<div id="html_a572fe6df3b14910871bb1914d101262" style="width: 100.0%; height: 100.0%;">KIDNAPPING: 33</div>')[0];
+                popup_3b4030af46854454bc1193cb5ebd8673.setContent(html_a572fe6df3b14910871bb1914d101262);
+            
+
+            regular_polygon_marker_a4486ea496bc4025aef6186691654b35.bindPopup(popup_3b4030af46854454bc1193cb5ebd8673);
+
+            
+        
+    
+            var regular_polygon_marker_a11a15325e3240e3b3ce69e6a30f1623 = new L.RegularPolygonMarker(
+                new L.LatLng(41.79,-87.6818),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#d9d9d9',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 6.9314718056
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_0ad394294ec745a3bfc69a8f4aaf3995 = L.popup({maxWidth: '300'});
+
+            
+                var html_8dd250f546b1487fb75aa1de041263af = $('<div id="html_8dd250f546b1487fb75aa1de041263af" style="width: 100.0%; height: 100.0%;">KIDNAPPING: 32</div>')[0];
+                popup_0ad394294ec745a3bfc69a8f4aaf3995.setContent(html_8dd250f546b1487fb75aa1de041263af);
+            
+
+            regular_polygon_marker_a11a15325e3240e3b3ce69e6a30f1623.bindPopup(popup_0ad394294ec745a3bfc69a8f4aaf3995);
+
+            
+        
+    
+            var regular_polygon_marker_1f9949aabaf0401299c58f2be49c9693 = new L.RegularPolygonMarker(
+                new L.LatLng(41.8905,-87.62139),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#bc80bd',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 8.76405326935
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_3acc3b84eb3f42d295d4504be268adfd = L.popup({maxWidth: '300'});
+
+            
+                var html_366c9d969676427aa260ea2d5b9b3ba6 = $('<div id="html_366c9d969676427aa260ea2d5b9b3ba6" style="width: 100.0%; height: 100.0%;">INTIMIDATION: 80</div>')[0];
+                popup_3acc3b84eb3f42d295d4504be268adfd.setContent(html_366c9d969676427aa260ea2d5b9b3ba6);
+            
+
+            regular_polygon_marker_1f9949aabaf0401299c58f2be49c9693.bindPopup(popup_3acc3b84eb3f42d295d4504be268adfd);
+
+            
+        
+    
+            var regular_polygon_marker_db4d28dc0db74588821faefa91123ab1 = new L.RegularPolygonMarker(
+                new L.LatLng(41.9305,-87.76139),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#bc80bd',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 7.61332497954
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_8d89aa41a9634a41affab6a1c1ab563f = L.popup({maxWidth: '300'});
+
+            
+                var html_ce452a8d46f34f00b70be7907a593819 = $('<div id="html_ce452a8d46f34f00b70be7907a593819" style="width: 100.0%; height: 100.0%;">INTIMIDATION: 45</div>')[0];
+                popup_8d89aa41a9634a41affab6a1c1ab563f.setContent(html_ce452a8d46f34f00b70be7907a593819);
+            
+
+            regular_polygon_marker_db4d28dc0db74588821faefa91123ab1.bindPopup(popup_8d89aa41a9634a41affab6a1c1ab563f);
+
+            
+        
+    
+            var regular_polygon_marker_243a3e7f556a48e68d1ec35d009ffb51 = new L.RegularPolygonMarker(
+                new L.LatLng(41.8505,-87.69139),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#bc80bd',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 7.56837926784
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_04b2d3607da04d85a5c5b6c3a964aa05 = L.popup({maxWidth: '300'});
+
+            
+                var html_45d783ddc0524d9aa8754971c3147919 = $('<div id="html_45d783ddc0524d9aa8754971c3147919" style="width: 100.0%; height: 100.0%;">INTIMIDATION: 44</div>')[0];
+                popup_04b2d3607da04d85a5c5b6c3a964aa05.setContent(html_45d783ddc0524d9aa8754971c3147919);
+            
+
+            regular_polygon_marker_243a3e7f556a48e68d1ec35d009ffb51.bindPopup(popup_04b2d3607da04d85a5c5b6c3a964aa05);
+
+            
+        
+    
+            var regular_polygon_marker_cbaa5ba7c8884807b1d065386990bee7 = new L.RegularPolygonMarker(
+                new L.LatLng(41.891,-87.62098),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#ccebc5',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 7.47533923657
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_d6686722d4194c0d978a0fcfd4fb59ae = L.popup({maxWidth: '300'});
+
+            
+                var html_c5b3bd6e24074c348f556214789f21f1 = $('<div id="html_c5b3bd6e24074c348f556214789f21f1" style="width: 100.0%; height: 100.0%;">STALKING: 42</div>')[0];
+                popup_d6686722d4194c0d978a0fcfd4fb59ae.setContent(html_c5b3bd6e24074c348f556214789f21f1);
+            
+
+            regular_polygon_marker_cbaa5ba7c8884807b1d065386990bee7.bindPopup(popup_d6686722d4194c0d978a0fcfd4fb59ae);
+
+            
+        
+    
+            var regular_polygon_marker_c66757f119f245df8201cd323dab5bde = new L.RegularPolygonMarker(
+                new L.LatLng(41.761,-87.59098),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#ccebc5',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 6.43775164974
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_8552276ad4f447809c0b5a632d3e0ab8 = L.popup({maxWidth: '300'});
+
+            
+                var html_a0245a1adbf544ccb456adf25311ea2e = $('<div id="html_a0245a1adbf544ccb456adf25311ea2e" style="width: 100.0%; height: 100.0%;">STALKING: 25</div>')[0];
+                popup_8552276ad4f447809c0b5a632d3e0ab8.setContent(html_a0245a1adbf544ccb456adf25311ea2e);
+            
+
+            regular_polygon_marker_c66757f119f245df8201cd323dab5bde.bindPopup(popup_8552276ad4f447809c0b5a632d3e0ab8);
+
+            
+        
+    
+            var regular_polygon_marker_fbe0953d73d6454b9b1e34512a114d61 = new L.RegularPolygonMarker(
+                new L.LatLng(41.761,-87.60098),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'black',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: '#ccebc5',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 6.3561076607
+                    }
+                )
+                .addTo(map_2044fc57efc94d3495d086936da4f60a);
+            
+    
+            var popup_758c6ba333dd4cea862b1bc4bfef5157 = L.popup({maxWidth: '300'});
+
+            
+                var html_9ac56aefff0b426b8a2fde682870a9d6 = $('<div id="html_9ac56aefff0b426b8a2fde682870a9d6" style="width: 100.0%; height: 100.0%;">STALKING: 24</div>')[0];
+                popup_758c6ba333dd4cea862b1bc4bfef5157.setContent(html_9ac56aefff0b426b8a2fde682870a9d6);
+            
+
+            regular_polygon_marker_fbe0953d73d6454b9b1e34512a114d61.bindPopup(popup_758c6ba333dd4cea862b1bc4bfef5157);
+
+            
+        
+</script>
